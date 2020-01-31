@@ -8,6 +8,9 @@ class Dog
     @@all << name   
   end
   
+  def self.save
+    @all << se
+  
   def self.all
     @@all
   end
